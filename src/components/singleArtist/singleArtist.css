@@ -1,0 +1,55 @@
+.singleArtist{
+    flex:9;
+}
+
+.singleArtistWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #b58b68 25%, white 25%);
+}
+
+.singleArtistImg{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singleArtistName{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #985232;
+    font-size: 50px;
+}
+
+.singleArtistInfo{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+    font-size: large;
+}
+.singleArtistWorkTitle{
+    margin-top: 20px;
+    color: #b58b68;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.singleArtistWorks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.singleArtistWork{
+    max-width : 25%;
+    height: auto;
+    margin: 20px;
+}

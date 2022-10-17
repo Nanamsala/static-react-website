@@ -1,0 +1,51 @@
+.contact{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactTitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #333;
+}
+
+.contactDesc{
+    font-family: 'Rubik', sans-serif;
+    padding: 2% 30% 2% 30% ;
+    text-align: center;
+    font-size: 20px;
+    color: #444;
+}
+
+
+.contactInfo{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    width: 100%
+}
+
+.contactInfo > p {
+    width: 100%
+}
+@media only screen and (max-width: 768px){
+    .contactInfo{
+        display: block;
+        margin-top: 10px;
+        font-size: min(4vw,4vh);
+        padding: 5%;
+    }
+    .contactDesc{
+        font-size: min(4vw,4vh);
+        padding: 5%;
+    }
+    .contactTitle{
+        font-size: min(9vw,9vh);
+        padding: 5%;
+    }
+}

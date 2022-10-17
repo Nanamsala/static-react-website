@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+}
+body,html{
+    background-color: #fff;
+}
+.button:hover{
+	font-size: larger;
+	transition: 0.3s;
+}
+.content{
+	min-height:calc(100vh - 215px);
+}
+
+img{
+	border-radius: 7px;
+}

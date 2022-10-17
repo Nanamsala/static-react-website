@@ -1,0 +1,47 @@
+.header{
+}
+
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+}
+
+.headerTitleSm{
+    position:absolute;
+    top: 52%;
+    font-size: 2vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 45%;
+    font-size: 4vw;
+    z-index: 1;
+}
+
+.headerImg{
+    max-height: 100vh;
+    width:100%;
+    filter: brightness(50%);
+    object-fit: cover;
+    object-position: 10% 10%;
+}
+
+.button{
+    text-decoration: none;
+    color: hsl(18, 41%, 69%);
+    font-weight: bold;    
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        display: none;
+    }
+
+    
+}

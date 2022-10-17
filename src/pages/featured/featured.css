@@ -1,0 +1,129 @@
+.featured{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    width:100vw;
+}
+
+.featuredArtistWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #b58b68 25%, white 25%);
+}
+
+.featuredArtistImg{
+    width:auto;
+    height: 100vh;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.featuredArtistName{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #985232;
+    font-size: 50px;
+}
+.featuredArtistInfo{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #333;
+    font-size: large;
+}
+
+.featuredArtistTitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #999;
+    
+    
+}
+
+.featuredArtistList{
+    list-style: none;
+    padding-left: 15%;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featuredArtistListItem{
+    color: #555;
+    width: 50%;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.carousel{
+    padding-top: 30px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.carouselImage{
+    height:50vh
+}
+
+.carouselImage >img{
+    height: 100%!important;
+    width: auto !important;
+    max-width: 100%!important;
+}
+iframe{
+    width:560px;
+    height:315px;
+}
+
+@media only screen and (max-width: 768px){
+    .featured{
+        overflow: hidden;
+    }
+    iframe{
+        width: 100%;
+        
+    }
+    .carousel{
+        width: 100%;
+        padding: 0;
+    }
+    .featuredArtistWrapper{
+        width: 100%;
+        padding: 0;
+    }
+    .featuredArtistImg{
+        width: 100%;
+        padding: 0;
+    }
+    .featuredArtistInfo{
+        margin: 5%;
+    }
+    .featuredArtistList{
+        width: 70%;
+    }
+    .fbpl{
+        width: 100%;
+    }
+    .fbpl>div{
+        width: 100%;
+    } 
+    .slide, .animated, .slider{
+        width: 100%;
+    }
+    .carouselImage >img{
+        max-width: 100%;
+    }
+    .carousel-status{
+        padding:0;
+    }
+}
